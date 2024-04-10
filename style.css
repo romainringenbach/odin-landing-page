@@ -40,6 +40,8 @@ body {
 /* Button */
 
 button {
+    padding: 8px 24px;
+    
     border-radius: 8px;
     border-width: 0px;
 
@@ -48,21 +50,18 @@ button {
 
     font-size: 18px;
     font-weight: bold;
-    
-    padding: 8px 24px;
 }
 
 /* Placeholder */
 
 .placeholder {
-    background-color: gray;
-    color: lightgray;
-    font-size: 18px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
+    background-color: gray;
+    color: lightgray;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -75,12 +74,13 @@ header {
 }
 
 header ul {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    
     display: flex;
     gap: 8px;
+
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
 }
 
 header ul a {
@@ -92,11 +92,8 @@ header ul a {
 .banner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
-    display: flex;
-    gap: 8px;
     align-items: stretch;
+    gap: 8px;
     
     padding-top: 96px;
     padding-bottom: 96px;
@@ -106,9 +103,9 @@ header ul a {
     flex: 1;
 
     display: flex;
-    gap: 8px;
     flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
 }
 
 .banner .placeholder {
@@ -118,13 +115,15 @@ header ul a {
 /* Informatoon */
 
 .information {
-    color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 48px;
+
     padding-bottom: 96px;
     padding-top: 48px;
-    gap: 48px;
+
+    color: #1F2937;
 }
 
 .information .large-text {
@@ -143,11 +142,12 @@ header ul a {
 }
 
 .information .placeholder {
+    aspect-ratio: 1 / 1;
+
     border-width: 5px;
     border-radius: 16px;
     border-color: #3882F6;
     border-style: solid;
-    aspect-ratio: 1 / 1;
 }
 
 .information figcaption {
@@ -157,48 +157,54 @@ header ul a {
 /* Quotation */
 
 .quotation {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    padding: 96px 20vw;
     display: flex;
     flex-direction: column;
+
+    padding: 96px 20vw;
+
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
-.quotation .large-text {
+.quotation .quote{
+    align-self: flex-start;
+
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    align-self: flex-start;
 }
 
-.quotation .medium-text {
+.quotation .author {
     align-self: flex-end;
 }
 
 /* Call to action */
 
 .call-to-action {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+
     padding-top: 96px;
     padding-bottom: 96px;
 
     color: #F9FAF8;
-
-    display: flex;
-    justify-content: stretch;
-    align-items: stretch;
 }
 
 .call-to-action .sub-container {
-    background-color: #3882F6;
-    padding: 32px 128px;
     flex: 1;
+
     display: flex;
     justify-content: space-between;
+
+    background-color: #3882F6;
+    padding: 32px 128px;
     border-radius: 16px;
 }
 
 .call-to-action button {
     display: block;
+
     border-width: 3px;
     border-color: #F9FAF8;
     border-style: solid;
