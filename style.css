@@ -25,6 +25,38 @@ body {
     font-size: 24px;
 }
 
+.hero .large-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/* Button */
+
+button {
+    border-radius: 8px;
+    border-width: 0px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    font-size: 18px;
+    font-weight: bold;
+    
+    padding: 8px 24px;
+}
+
+/* Placeholder */
+
+.placeholder {
+    background-color: gray;
+    color: lightgray;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* header */
 
 header {
@@ -46,5 +78,31 @@ header ul a {
     text-decoration: none;
 }
 
+/* Banner */
 
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+    
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.banner .sub-container {
+    flex: 1;
+
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner .placeholder {
+    flex: 1;
+}
 
