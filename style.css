@@ -3,6 +3,14 @@ body {
     margin: 0px;
 }
 
+.large-text {
+    font-weight: 800;
+}
+
+.small-text {
+    font-size: 18px;
+}
+
 /* Container */
 
 .container {
@@ -17,7 +25,6 @@ body {
 }
 
 .hero .small-text {
-    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -27,7 +34,6 @@ body {
 
 .hero .large-text {
     font-size: 48px;
-    font-weight: 800;
 }
 
 /* Button */
@@ -55,6 +61,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    text-align: center;
 }
 
 /* header */
@@ -106,3 +114,41 @@ header ul a {
     flex: 1;
 }
 
+/* Informatoon */
+
+.information {
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 96px;
+    padding-top: 48px;
+    gap: 48px;
+}
+
+.information .large-text {
+    font-size: 36px;
+}
+
+.information .sub-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px
+}
+
+.information figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.information .placeholder {
+    border-width: 5px;
+    border-radius: 16px;
+    border-color: #3882F6;
+    border-style: solid;
+    aspect-ratio: 1 / 1;
+}
+
+.information figcaption {
+    text-align: center;
+}
