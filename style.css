@@ -9,6 +9,7 @@ body {
 
 .medium-text {
     font-size: 24px;
+    font-weight: 800;
 }
 
 .small-text {
@@ -171,7 +172,34 @@ header ul a {
 }
 
 .quotation .medium-text {
-    font-weight: 800;
     align-self: flex-end;
 }
 
+/* Call to action */
+
+.call-to-action {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.call-to-action .sub-container {
+    background-color: #3882F6;
+    padding: 32px 128px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.call-to-action button {
+    display: block;
+    border-width: 3px;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
