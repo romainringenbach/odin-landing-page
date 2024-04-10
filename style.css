@@ -203,3 +203,15 @@ header ul a {
     border-color: #F9FAF8;
     border-style: solid;
 }
+
+/* Footer */
+
+/* add .container.hero make this declaration prioritary to .container */
+footer.container.hero  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
